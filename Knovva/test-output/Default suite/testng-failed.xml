@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.knovva.TestCases.Login1">
+        <methods>
+          <include name="storeReport"/>
+          <include name="callBrowser"/>
+          <include name="TC_L020"/>
+          <include name="callSetup"/>
+          <include name="getMethodsUpdates"/>
+          <include name="callTearDown"/>
+        </methods>
+      </class> <!-- com.knovva.TestCases.Login1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionTest Suite]" parallel="classes">
+  <test thread-count="5" name="Group Test(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.knovva.TestCases.Login1">
+        <methods>
+          <include name="TC_L001"/>
+        </methods>
+      </class> <!-- com.knovva.TestCases.Login1 -->
+      <class name="com.knovva.TestCases.ForgotPassword">
+        <methods>
+          <include name="TC_FP001"/>
+        </methods>
+      </class> <!-- com.knovva.TestCases.ForgotPassword -->
+    </classes>
+  </test> <!-- Group Test(failed) -->
+</suite> <!-- Failed suite [RegressionTest Suite] -->

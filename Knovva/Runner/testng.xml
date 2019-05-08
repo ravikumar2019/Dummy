@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Knovva Test Suite"  parallel="false">
+ 
+ <test name="Login">
+    <classes>     
+      
+      <class name="com.knovva.TestCases.Login1" />
+        
+     </classes>
+  </test>
+  
+  <test name="CreateAccount">
+    <classes>     
+      <class name="com.knovva.TestCases.CreateAccount" />      
+    </classes>
+  </test>
+ 
+ <!-- 
+ <test name="ForgotPassword">
+    <classes>     
+      <class name="com.knovva.TestCases.ForgotPassword"/>     
+    </classes>
+  </test>
+  
+ 
+ <test name="Community">
+    <classes>     
+      <class name="com.knovva.TestCases.Community" />      
+    </classes>
+  </test>  -->
+ <!-- 
+  <test name="Notification">
+    <classes>    
+      <class name="com.knovva.TestCases.Notification" />      
+    </classes>
+  </test> 
+  
+  <test name="Events">
+    <classes>     
+      <class name="com.knovva.TestCases.Events" />      
+    </classes>
+  </test>
+  
+  <test name="StudentClubs">
+    <classes>     
+      <class name="com.knovva.TestCases.StudentClubs"/>      
+    </classes>
+  </test>
+  
+   <test name="StudentClubsAppForm">
+    <classes>     
+      <class name="com.knovva.TestCases.StudentClubsAppForm"/>      
+    </classes>
+  </test>
+  
+  <test name="Update_Profile">
+    <classes>     
+      <class name="com.knovva.TestCases.Update_Profile"/>      
+    </classes>
+  </test>
+  
+  <test name="Notes">
+    <classes>     
+      <class name="com.knovva.TestCases.Notes"/>      
+    </classes>
+  </test>
+   -->
+  
+   
+</suite> 
+
+
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="KnovvaAcademyAutomationtest" parallel="tests">
+<listeners>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+
+</listeners>
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="knovvaCrossBrowserScript.Login1" />
+    </classes>
+  </test> Test
+</suite> Suite -->
+
+<suite name="KnovvaAcademyAutomationtest" thread-count="2" parallel="methods" >
+
+<test name="ChromeTest">
+
+<parameter name="browser" value="chrome" />
+
+<classes>
+
+  <class name="knovvaCrossBrowserScript.Login1">
+
+   </class>
+
+</classes>
+
+</test>
+
+ <!-- <test name="EdgeTest">
+
+<parameter name="browser" value="Edge" />
+
+<classes>
+
+  <class name="knovvaCrossBrowserScript.Login1">
+
+  </class>
+
+</classes>
+
+</test>  -->
+
+
+
+
+
+ <test name="FirefoxTest">
+
+<parameter name="browser" value="Firefox" />
+
+<classes>
+
+  <class name="release_1.Login1">
+
+  </class>
+
+</classes>
+
+</test> 
+
+ </suite>

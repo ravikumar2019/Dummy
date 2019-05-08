@@ -1,0 +1,83 @@
+
+2019-04-24 19:05:02,744 [TestNG-test=CreateAccount-1] INFO log4j.properties - CreateAccount  test case started !!!
+2019-04-24 19:05:06,655 [TestNG-test=CreateAccount-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 14:21:35,904 [TestNG-test=CreateAccount-1] INFO log4j.properties - CreateAccount  test case started !!!
+2019-04-25 14:21:41,485 [TestNG-test=CreateAccount-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 14:28:36,664 [TestNG-test=CreateAccount-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:01:34,638 [main] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:15:08,375 [main] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:17:48,968 [main] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:19:28,608 [TestNG-tests-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:24:53,760 [TestNG-tests-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:36:53,677 [TestNG-test=Test-method test-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:42:05,668 [TestNG-test=CreateAccount-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 15:42:51,606 [TestNG-test=CreateAccount-1] INFO log4j.properties - CreateAccount test case ended !!!
+2019-04-25 17:02:42,276 [main] INFO log4j.properties - Login test case started !!!
+2019-04-25 17:07:15,931 [main] INFO log4j.properties - Login module test case Ended !!!
+2019-04-25 18:47:08,024 [main] INFO log4j.properties - Login test case started !!!
+2019-04-25 19:12:08,494 [main] INFO log4j.properties - Login test case started !!!
+2019-04-26 10:47:39,834 [main] INFO log4j.properties - Login test case started !!!
+2019-04-26 10:53:13,698 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 10:53:20,099 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:00:29,166 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:00:34,975 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:04:51,881 [main] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:04:51,916 [main] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:05:29,176 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:05:36,099 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:06:27,608 [main] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:06:33,786 [main] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:09:52,727 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:09:59,248 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:14:49,962 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:14:55,156 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:23:00,993 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:23:06,166 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:25:45,456 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:25:52,182 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:27:41,053 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:27:48,062 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:27:48,100 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:31:25,359 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:31:31,685 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:31:31,706 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:33:57,673 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:34:03,404 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:34:03,434 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:36:08,259 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:36:14,199 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:37:58,346 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:38:03,509 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:42:44,068 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:42:48,881 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:42:48,904 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:47:26,395 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:47:31,134 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:47:31,164 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:50:39,384 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:50:43,637 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:50:43,695 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 11:54:49,721 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:54:52,588 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:56:40,702 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:56:45,881 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:58:33,299 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 11:58:38,272 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 11:58:38,285 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-26 12:11:34,476 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-26 12:11:40,296 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword test case started !!!
+2019-04-26 12:11:40,337 [TestNG-test=Login-1] INFO log4j.properties - ForgotPassword module test case Started !!!
+2019-04-29 16:31:31,096 [main] INFO log4j.properties - Login test case started !!!
+2019-04-29 16:37:48,264 [TestNG-test=Login-1] INFO log4j.properties - Login test case started !!!
+2019-04-29 16:39:35,098 [main] INFO log4j.properties - Login test case started !!!
+2019-04-29 16:40:22,997 [main] INFO log4j.properties - Login test case started !!!
+2019-04-29 16:43:46,594 [main] INFO log4j.properties - Login test case started !!!
+2019-04-30 11:03:12,458 [main] INFO log4j.properties - Login test case started !!!
+2019-04-30 11:03:31,922 [main] INFO log4j.properties - CreateAccount test case started !!!
+2019-05-02 16:47:33,542 [main] INFO log4j.properties - Login test case started !!!
+2019-05-02 17:14:35,430 [main] INFO log4j.properties - Login test case started !!!
+2019-05-02 17:15:53,050 [main] INFO log4j.properties - CreateAccount test case started !!!
+2019-05-02 17:18:50,425 [main] INFO log4j.properties - Login test case started !!!
+2019-05-02 17:19:27,780 [main] INFO log4j.properties - CreateAccount test case started !!!
+2019-05-06 18:14:34,491 [main] INFO log4j.properties - Login test case started !!!
+2019-05-06 18:15:21,782 [main] INFO log4j.properties - CreateAccount test case started !!!
