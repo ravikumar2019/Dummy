@@ -109,7 +109,7 @@ public class TestBase_Knovva {
 				e.printStackTrace();
 			}
 			
-			  extentHTMLReport = new ExtentHtmlReporter("./Report/Knovva_"+Utils.getCurrentDateTime()+".html");
+			  extentHTMLReport = new ExtentHtmlReporter("./Report/Knovva_ExtentReport" + ".html");
 				
 			  extentreport = new ExtentReports();
 				

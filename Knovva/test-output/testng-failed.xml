@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Knovva Test Suite]">
-  <test thread-count="5" name="Login(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.knovva.TestCases.Login1">
         <methods>
@@ -14,19 +14,5 @@
         </methods>
       </class> <!-- com.knovva.TestCases.Login1 -->
     </classes>
-  </test> <!-- Login(failed) -->
-  <test thread-count="5" name="CreateAccount(failed)">
-    <classes>
-      <class name="com.knovva.TestCases.CreateAccount">
-        <methods>
-          <include name="storeReport"/>
-          <include name="callTearDown"/>
-          <include name="callSetup"/>
-          <include name="getMethodsUpdates"/>
-          <include name="TC_R002"/>
-          <include name="callBrowser"/>
-        </methods>
-      </class> <!-- com.knovva.TestCases.CreateAccount -->
-    </classes>
-  </test> <!-- CreateAccount(failed) -->
-</suite> <!-- Failed suite [Knovva Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

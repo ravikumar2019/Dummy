@@ -953,6 +953,12 @@ public class Login1 extends TestBase_Knovva
 	 		// extentlogger.pass(result.getName() +"==>"+status);
 	 	  }
 	 	  
+	 	  else if(result.getStatus()==ITestResult.SKIP)
+	 	  {
+	 		 log.info("Test skipped " + result.getThrowable());
+	 		extentlogger.skip(result.getThrowable().getMessage());	 		 
+	 	  }
+	 	  
 	     }
     
     
