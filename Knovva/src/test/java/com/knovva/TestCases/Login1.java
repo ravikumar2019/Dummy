@@ -69,7 +69,7 @@ public class Login1 extends TestBase_Knovva
      }
   
    
-    @Test(enabled = false,
+    @Test(enabled = true,
     		description = "If password ID field is blank, given input for email ID field and then click on signin button"
     				+ "|| Login button should not be enabled")
    
@@ -104,7 +104,7 @@ public class Login1 extends TestBase_Knovva
     }
     
     
-    @Test(enabled = false,
+    @Test(enabled = true,
     		description = "In email ID text box, given email id @ is missing , password value given and click on signin button"
     				+ "|| Alert message should be given as Email ID is invalid, Please give a valid email ID with @ and domain name")
     
