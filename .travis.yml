@@ -1,1 +1,12 @@
 language: java
+cache: apt
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq default-jdk maven
+
+env:
+  - JAVA_HOME=/usr/lib/jvm/java-6-openjdk-amd64
+
+script:
+  - travis_wait mvn package -Dtestng=Runner/testng.xml
