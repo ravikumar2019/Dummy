@@ -1,12 +1,22 @@
+sudo: required
+dist: trusty
 language: java
-cache: apt
-
+jdk:
+- oraclejdk8
+addons:
+  firefox: "60.0"
 before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq default-jdk maven
-
-env:
-  - JAVA_HOME=/usr/lib/jvm/java-6-openjdk-amd64
-
-script:
-  - travis_wait mvn package -Dtestng=Runner/testng.xml
+- sudo apt-get update
+- sudo apt-get install dbus-x11
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
+- export CHROME_BIN=/usr/bin/google-chrome
+- sudo apt-get install -y libappindicator1 fonts-liberation
+- wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+- sudo dpkg -i google-chrome*.deb
+- wget https://chromedriver.storage.googleapis.com/2.0/chromedriver_win32.zip.zip
+- unzip chromedriver_win32.zip
+- sudo cp chromedriver /usr/bin
+- wget https://github.com/mozilla/geckodriver/releases/download/v0.20.1/geckodriver-v0.20.1-win32.tar.gz
+- tar -xzf geckodriver-v0.20.1-win32.tar.gz
+- sudo cp geckodriver /usr/bin
