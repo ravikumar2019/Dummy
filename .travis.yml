@@ -23,7 +23,7 @@ script:
   - nohup java -jar activeadmin-demo.war >/dev/null 2>&1 &
   - sleep 30
   - mvn clean
-  - mvn test -f Knovva/pom.xml
+  - mvn test 
 
 deploy:
   provider: surge
