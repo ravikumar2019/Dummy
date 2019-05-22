@@ -14,9 +14,6 @@ before_install:
 - sudo apt-get install -y libappindicator1 fonts-liberation
 - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 - sudo dpkg -i google-chrome*.deb
-- wget https://chromedriver.storage.googleapis.com/2.0/chromedriver_win32.zip
-- unzip chromedriver_win32.zip
-- sudo cp chromedriver /usr/bin
 - wget https://github.com/mozilla/geckodriver/releases/download/v0.20.1/geckodriver-v0.20.1-win32.tar.gz
 - tar -xzf geckodriver-v0.20.1-win32.tar.gz
 - sudo cp geckodriver /usr/bin
